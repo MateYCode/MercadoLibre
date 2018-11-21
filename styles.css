@@ -1,0 +1,86 @@
+/*-----------------------------------
+	General Styles
+-----------------------------------*/
+
+.empty-cart{
+	background:url(../MercadoLibre/assets/images/emptyCart.png);	
+	width: 40px;
+	height: 50px;
+	background-repeat:no-repeat;
+	background-position: center; 
+	background-size:contain;
+}
+.filled-cart{
+	background:url(../MercadoLibre/assets/images/filledCart.png);	
+	width: 40px;
+	height: 50px;
+	background-repeat:no-repeat;
+	background-position: center; 
+	background-size:contain;
+}
+.buy-cart{
+	background:url(../MercadoLibre/assets/images/sprite.png);
+	background-position: -100px 0px;
+	background-repeat:no-repeat;
+	width: 60px;
+	height: 50px;
+	padding-right: 85px;
+	cursor: pointer;
+}
+.added-cart{
+	background:url(../MercadoLibre/assets/images/sprite2.png);
+	background-position: -100px 0px;
+	background-repeat:no-repeat;
+	width: 60px;
+	height: 50px;
+	padding-right: 85px;
+}
+.navbar{
+	background-color: #4ea6bc;
+	padding: 15px ;
+	border-radius: 0;
+	margin: 0;
+}
+.modal-title{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin-right:-0.5px;
+}
+/* Items */
+
+.item-name{	
+	color: #727578;
+	font-size :1em;
+	}
+.quantity{	
+	color: #4ea6bc;
+	font-size :18px;
+	font-weight: bold;
+	float : left;
+	width: 25px;
+	padding-left: 0px;
+}
+.price{
+	color: #f06953;
+	font-size :18px;
+	font-weight: bold;
+	float: right;
+}
+.price:before{
+	content:'$';
+	}
+
+/* Mobile device size */
+
+@media (max-width: 768px) {
+
+	.navbar{ 
+		padding:10px 0;
+	}
+
+	
+	.quantity{	
+		width: 23px;
+		padding-right: 40px !important;
+	}
+}
